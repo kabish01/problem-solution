@@ -1,0 +1,10 @@
+For finding factorial of a number and sum of digits in the result.
+1. First let factorial be equal to 1.
+2. Initialize another variable for sum of numbers in factorial output 'summ = 0'.
+3. For any number 'num', iterate 'i' from 1 to 'num' using range function range(1, num+1) as range function is exclusive of last value.
+4. factorial is calculated by iterative multiplying 'i' with 'factorial' value which is reassigned with each iteration.
+5. Declare a variable to store the sum and set it to 0
+6. Repeat the next two steps till the number is not 0
+7. Get the rightmost digit of the factorial value with help of remainder ‘%’ operator by dividing it with 10 and add it to sum.
+8. Divide the value by 10 with help of ‘/’ operator
+9. Print or return the sum.
