@@ -15,7 +15,7 @@ def getSum(num):
     summ = 0
     for i in range(1, num+1):
         factorial = factorial *i 
-    print(factorial)
+   
   
     # Single line that calculates sum  
     while(factorial > 0): 
